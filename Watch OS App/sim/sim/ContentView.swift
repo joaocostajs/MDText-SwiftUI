@@ -1,25 +1,18 @@
 //
 //  ContentView.swift
-//  antero
+//  sim
 //
 //  Created by João Costa on 22/11/2020.
 //
 
 import SwiftUI
-import MDText
+import Parma
 
 struct ContentView: View {
-    var markdown =
-    """
-    ** João **
-    # J
-    J
-    *# J
-    * És louco *
-    """
+    var markdown = "I'm **Strong**."
     
     var body: some View {
-        MDText(markdown: markdown)
+        Parma(markdown)
     }
 }
 

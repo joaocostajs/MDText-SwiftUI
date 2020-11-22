@@ -1,25 +1,16 @@
 //
 //  ContentView.swift
-//  antero
+//  sim WatchKit Extension
 //
 //  Created by João Costa on 22/11/2020.
 //
 
 import SwiftUI
-import MDText
 
 struct ContentView: View {
-    var markdown =
-    """
-    ** João **
-    # J
-    J
-    *# J
-    * És louco *
-    """
-    
     var body: some View {
-        MDText(markdown: markdown)
+        Text("Hello, World!")
+            .padding()
     }
 }
 

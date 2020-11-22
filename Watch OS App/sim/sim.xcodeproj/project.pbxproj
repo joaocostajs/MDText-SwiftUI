@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF480097256B0EAB00EF07D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF480096256B0EAA00EF07D0 /* AppDelegate.swift */; };
+		EF480099256B0EAB00EF07D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF480098256B0EAB00EF07D0 /* SceneDelegate.swift */; };
+		EF48009B256B0EAB00EF07D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48009A256B0EAB00EF07D0 /* ContentView.swift */; };
+		EF48009D256B0EAE00EF07D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF48009C256B0EAE00EF07D0 /* Assets.xcassets */; };
+		EF4800A0256B0EAE00EF07D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF48009F256B0EAE00EF07D0 /* Preview Assets.xcassets */; };
+		EF4800A3256B0EAE00EF07D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4800A1256B0EAE00EF07D0 /* LaunchScreen.storyboard */; };
+		EF4800AE256B0EAE00EF07D0 /* simTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4800AD256B0EAE00EF07D0 /* simTests.swift */; };
+		EF4800B9256B0EAE00EF07D0 /* simUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4800B8256B0EAE00EF07D0 /* simUITests.swift */; };
+		EF4800BE256B0EAE00EF07D0 /* sim WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EF4800BD256B0EAE00EF07D0 /* sim WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF4800C4256B0EAE00EF07D0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4800C2256B0EAE00EF07D0 /* Interface.storyboard */; };
+		EF4800C6256B0EB100EF07D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4800C5256B0EB100EF07D0 /* Assets.xcassets */; };
+		EF4800CD256B0EB100EF07D0 /* sim WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EF4800CC256B0EB100EF07D0 /* sim WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EF4800D2256B0EB100EF07D0 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4800D1256B0EB100EF07D0 /* HostingController.swift */; };
+		EF4800D4256B0EB100EF07D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4800D3256B0EB100EF07D0 /* ContentView.swift */; };
+		EF4800D6256B0EB100EF07D0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4800D5256B0EB100EF07D0 /* ExtensionDelegate.swift */; };
+		EF4800D8256B0EB100EF07D0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4800D7256B0EB100EF07D0 /* NotificationController.swift */; };
+		EF4800DA256B0EB100EF07D0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4800D9256B0EB100EF07D0 /* NotificationView.swift */; };
+		EF4800DC256B0EB100EF07D0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4800DB256B0EB100EF07D0 /* ComplicationController.swift */; };
+		EF4800DE256B0EB300EF07D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4800DD256B0EB300EF07D0 /* Assets.xcassets */; };
+		EF4800E1256B0EB300EF07D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4800E0256B0EB300EF07D0 /* Preview Assets.xcassets */; };
+		EF4800FE256B0EE800EF07D0 /* Parma in Frameworks */ = {isa = PBXBuildFile; productRef = EF4800FD256B0EE800EF07D0 /* Parma */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4800AA256B0EAE00EF07D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF48008B256B0EAA00EF07D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF480092256B0EAA00EF07D0;
+			remoteInfo = sim;
+		};
+		EF4800B5256B0EAE00EF07D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF48008B256B0EAA00EF07D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF480092256B0EAA00EF07D0;
+			remoteInfo = sim;
+		};
+		EF4800BF256B0EAE00EF07D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF48008B256B0EAA00EF07D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4800BC256B0EAE00EF07D0;
+			remoteInfo = "sim WatchKit App";
+		};
+		EF4800CE256B0EB100EF07D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF48008B256B0EAA00EF07D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4800CB256B0EB100EF07D0;
+			remoteInfo = "sim WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF4800E9256B0EB300EF07D0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EF4800CD256B0EB100EF07D0 /* sim WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800ED256B0EB300EF07D0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EF4800BE256B0EAE00EF07D0 /* sim WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF480093256B0EAA00EF07D0 /* sim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF480096256B0EAA00EF07D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF480098256B0EAB00EF07D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF48009A256B0EAB00EF07D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF48009C256B0EAE00EF07D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF48009F256B0EAE00EF07D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4800A2256B0EAE00EF07D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4800A4256B0EAE00EF07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4800A9256B0EAE00EF07D0 /* simTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4800AD256B0EAE00EF07D0 /* simTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simTests.swift; sourceTree = "<group>"; };
+		EF4800AF256B0EAE00EF07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4800B4256B0EAE00EF07D0 /* simUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4800B8256B0EAE00EF07D0 /* simUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simUITests.swift; sourceTree = "<group>"; };
+		EF4800BA256B0EAE00EF07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4800BD256B0EAE00EF07D0 /* sim WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sim WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4800C3256B0EAE00EF07D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EF4800C5256B0EB100EF07D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4800C7256B0EB100EF07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4800CC256B0EB100EF07D0 /* sim WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "sim WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4800D1256B0EB100EF07D0 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		EF4800D3256B0EB100EF07D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF4800D5256B0EB100EF07D0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EF4800D7256B0EB100EF07D0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EF4800D9256B0EB100EF07D0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		EF4800DB256B0EB100EF07D0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EF4800DD256B0EB300EF07D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4800E0256B0EB300EF07D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4800E2256B0EB300EF07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4800E3256B0EB300EF07D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF480090256B0EAA00EF07D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4800FE256B0EE800EF07D0 /* Parma in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800A6256B0EAE00EF07D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800B1256B0EAE00EF07D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800C9256B0EB100EF07D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF48008A256B0EAA00EF07D0 = {
+			isa = PBXGroup;
+			children = (
+				EF480095256B0EAA00EF07D0 /* sim */,
+				EF4800AC256B0EAE00EF07D0 /* simTests */,
+				EF4800B7256B0EAE00EF07D0 /* simUITests */,
+				EF4800C1256B0EAE00EF07D0 /* sim WatchKit App */,
+				EF4800D0256B0EB100EF07D0 /* sim WatchKit Extension */,
+				EF480094256B0EAA00EF07D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF480094256B0EAA00EF07D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF480093256B0EAA00EF07D0 /* sim.app */,
+				EF4800A9256B0EAE00EF07D0 /* simTests.xctest */,
+				EF4800B4256B0EAE00EF07D0 /* simUITests.xctest */,
+				EF4800BD256B0EAE00EF07D0 /* sim WatchKit App.app */,
+				EF4800CC256B0EB100EF07D0 /* sim WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF480095256B0EAA00EF07D0 /* sim */ = {
+			isa = PBXGroup;
+			children = (
+				EF480096256B0EAA00EF07D0 /* AppDelegate.swift */,
+				EF480098256B0EAB00EF07D0 /* SceneDelegate.swift */,
+				EF48009A256B0EAB00EF07D0 /* ContentView.swift */,
+				EF48009C256B0EAE00EF07D0 /* Assets.xcassets */,
+				EF4800A1256B0EAE00EF07D0 /* LaunchScreen.storyboard */,
+				EF4800A4256B0EAE00EF07D0 /* Info.plist */,
+				EF48009E256B0EAE00EF07D0 /* Preview Content */,
+			);
+			path = sim;
+			sourceTree = "<group>";
+		};
+		EF48009E256B0EAE00EF07D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF48009F256B0EAE00EF07D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4800AC256B0EAE00EF07D0 /* simTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4800AD256B0EAE00EF07D0 /* simTests.swift */,
+				EF4800AF256B0EAE00EF07D0 /* Info.plist */,
+			);
+			path = simTests;
+			sourceTree = "<group>";
+		};
+		EF4800B7256B0EAE00EF07D0 /* simUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4800B8256B0EAE00EF07D0 /* simUITests.swift */,
+				EF4800BA256B0EAE00EF07D0 /* Info.plist */,
+			);
+			path = simUITests;
+			sourceTree = "<group>";
+		};
+		EF4800C1256B0EAE00EF07D0 /* sim WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EF4800C2256B0EAE00EF07D0 /* Interface.storyboard */,
+				EF4800C5256B0EB100EF07D0 /* Assets.xcassets */,
+				EF4800C7256B0EB100EF07D0 /* Info.plist */,
+			);
+			path = "sim WatchKit App";
+			sourceTree = "<group>";
+		};
+		EF4800D0256B0EB100EF07D0 /* sim WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF4800D1256B0EB100EF07D0 /* HostingController.swift */,
+				EF4800D3256B0EB100EF07D0 /* ContentView.swift */,
+				EF4800D5256B0EB100EF07D0 /* ExtensionDelegate.swift */,
+				EF4800D7256B0EB100EF07D0 /* NotificationController.swift */,
+				EF4800D9256B0EB100EF07D0 /* NotificationView.swift */,
+				EF4800DB256B0EB100EF07D0 /* ComplicationController.swift */,
+				EF4800DD256B0EB300EF07D0 /* Assets.xcassets */,
+				EF4800E2256B0EB300EF07D0 /* Info.plist */,
+				EF4800E3256B0EB300EF07D0 /* PushNotificationPayload.apns */,
+				EF4800DF256B0EB300EF07D0 /* Preview Content */,
+			);
+			path = "sim WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EF4800DF256B0EB300EF07D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF4800E0256B0EB300EF07D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF480092256B0EAA00EF07D0 /* sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4800EE256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "sim" */;
+			buildPhases = (
+				EF48008F256B0EAA00EF07D0 /* Sources */,
+				EF480090256B0EAA00EF07D0 /* Frameworks */,
+				EF480091256B0EAA00EF07D0 /* Resources */,
+				EF4800ED256B0EB300EF07D0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4800C0256B0EAE00EF07D0 /* PBXTargetDependency */,
+			);
+			name = sim;
+			packageProductDependencies = (
+				EF4800FD256B0EE800EF07D0 /* Parma */,
+			);
+			productName = sim;
+			productReference = EF480093256B0EAA00EF07D0 /* sim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4800A8256B0EAE00EF07D0 /* simTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4800F1256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "simTests" */;
+			buildPhases = (
+				EF4800A5256B0EAE00EF07D0 /* Sources */,
+				EF4800A6256B0EAE00EF07D0 /* Frameworks */,
+				EF4800A7256B0EAE00EF07D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4800AB256B0EAE00EF07D0 /* PBXTargetDependency */,
+			);
+			name = simTests;
+			productName = simTests;
+			productReference = EF4800A9256B0EAE00EF07D0 /* simTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4800B3256B0EAE00EF07D0 /* simUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4800F4256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "simUITests" */;
+			buildPhases = (
+				EF4800B0256B0EAE00EF07D0 /* Sources */,
+				EF4800B1256B0EAE00EF07D0 /* Frameworks */,
+				EF4800B2256B0EAE00EF07D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4800B6256B0EAE00EF07D0 /* PBXTargetDependency */,
+			);
+			name = simUITests;
+			productName = simUITests;
+			productReference = EF4800B4256B0EAE00EF07D0 /* simUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EF4800BC256B0EAE00EF07D0 /* sim WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4800EA256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "sim WatchKit App" */;
+			buildPhases = (
+				EF4800BB256B0EAE00EF07D0 /* Resources */,
+				EF4800E9256B0EB300EF07D0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4800CF256B0EB100EF07D0 /* PBXTargetDependency */,
+			);
+			name = "sim WatchKit App";
+			productName = "sim WatchKit App";
+			productReference = EF4800BD256B0EAE00EF07D0 /* sim WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EF4800CB256B0EB100EF07D0 /* sim WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4800E6256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "sim WatchKit Extension" */;
+			buildPhases = (
+				EF4800C8256B0EB100EF07D0 /* Sources */,
+				EF4800C9256B0EB100EF07D0 /* Frameworks */,
+				EF4800CA256B0EB100EF07D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sim WatchKit Extension";
+			productName = "sim WatchKit Extension";
+			productReference = EF4800CC256B0EB100EF07D0 /* sim WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF48008B256B0EAA00EF07D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					EF480092256B0EAA00EF07D0 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					EF4800A8256B0EAE00EF07D0 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = EF480092256B0EAA00EF07D0;
+					};
+					EF4800B3256B0EAE00EF07D0 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = EF480092256B0EAA00EF07D0;
+					};
+					EF4800BC256B0EAE00EF07D0 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					EF4800CB256B0EB100EF07D0 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = EF48008E256B0EAA00EF07D0 /* Build configuration list for PBXProject "sim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF48008A256B0EAA00EF07D0;
+			packageReferences = (
+				EF4800FC256B0EE800EF07D0 /* XCRemoteSwiftPackageReference "Parma" */,
+			);
+			productRefGroup = EF480094256B0EAA00EF07D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF480092256B0EAA00EF07D0 /* sim */,
+				EF4800A8256B0EAE00EF07D0 /* simTests */,
+				EF4800B3256B0EAE00EF07D0 /* simUITests */,
+				EF4800BC256B0EAE00EF07D0 /* sim WatchKit App */,
+				EF4800CB256B0EB100EF07D0 /* sim WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF480091256B0EAA00EF07D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4800A3256B0EAE00EF07D0 /* LaunchScreen.storyboard in Resources */,
+				EF4800A0256B0EAE00EF07D0 /* Preview Assets.xcassets in Resources */,
+				EF48009D256B0EAE00EF07D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800A7256B0EAE00EF07D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800B2256B0EAE00EF07D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800BB256B0EAE00EF07D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4800C6256B0EB100EF07D0 /* Assets.xcassets in Resources */,
+				EF4800C4256B0EAE00EF07D0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800CA256B0EB100EF07D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4800E1256B0EB300EF07D0 /* Preview Assets.xcassets in Resources */,
+				EF4800DE256B0EB300EF07D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF48008F256B0EAA00EF07D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF480097256B0EAB00EF07D0 /* AppDelegate.swift in Sources */,
+				EF480099256B0EAB00EF07D0 /* SceneDelegate.swift in Sources */,
+				EF48009B256B0EAB00EF07D0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800A5256B0EAE00EF07D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4800AE256B0EAE00EF07D0 /* simTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800B0256B0EAE00EF07D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4800B9256B0EAE00EF07D0 /* simUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4800C8256B0EB100EF07D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4800D4256B0EB100EF07D0 /* ContentView.swift in Sources */,
+				EF4800D2256B0EB100EF07D0 /* HostingController.swift in Sources */,
+				EF4800D8256B0EB100EF07D0 /* NotificationController.swift in Sources */,
+				EF4800D6256B0EB100EF07D0 /* ExtensionDelegate.swift in Sources */,
+				EF4800DA256B0EB100EF07D0 /* NotificationView.swift in Sources */,
+				EF4800DC256B0EB100EF07D0 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4800AB256B0EAE00EF07D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF480092256B0EAA00EF07D0 /* sim */;
+			targetProxy = EF4800AA256B0EAE00EF07D0 /* PBXContainerItemProxy */;
+		};
+		EF4800B6256B0EAE00EF07D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF480092256B0EAA00EF07D0 /* sim */;
+			targetProxy = EF4800B5256B0EAE00EF07D0 /* PBXContainerItemProxy */;
+		};
+		EF4800C0256B0EAE00EF07D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4800BC256B0EAE00EF07D0 /* sim WatchKit App */;
+			targetProxy = EF4800BF256B0EAE00EF07D0 /* PBXContainerItemProxy */;
+		};
+		EF4800CF256B0EB100EF07D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4800CB256B0EB100EF07D0 /* sim WatchKit Extension */;
+			targetProxy = EF4800CE256B0EB100EF07D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4800A1256B0EAE00EF07D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4800A2256B0EAE00EF07D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4800C2256B0EAE00EF07D0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4800C3256B0EAE00EF07D0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4800E4256B0EB300EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4800E5256B0EB300EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EF4800E7256B0EB300EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sim WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "sim WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.sim.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		EF4800E8256B0EB300EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sim WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "sim WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.sim.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		EF4800EB256B0EB300EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				IBSC_MODULE = sim_WatchKit_Extension;
+				INFOPLIST_FILE = "sim WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.sim.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		EF4800EC256B0EB300EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				IBSC_MODULE = sim_WatchKit_Extension;
+				INFOPLIST_FILE = "sim WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.sim.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		EF4800EF256B0EB300EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sim/Preview Content\"";
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.sim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF4800F0256B0EB300EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sim/Preview Content\"";
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.sim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4800F2256B0EB300EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				INFOPLIST_FILE = simTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.simTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sim.app/sim";
+			};
+			name = Debug;
+		};
+		EF4800F3256B0EB300EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				INFOPLIST_FILE = simTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.simTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sim.app/sim";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4800F5256B0EB300EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				INFOPLIST_FILE = simUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.simUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sim;
+			};
+			name = Debug;
+		};
+		EF4800F6256B0EB300EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				INFOPLIST_FILE = simUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.simUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sim;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF48008E256B0EAA00EF07D0 /* Build configuration list for PBXProject "sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4800E4256B0EB300EF07D0 /* Debug */,
+				EF4800E5256B0EB300EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4800E6256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "sim WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4800E7256B0EB300EF07D0 /* Debug */,
+				EF4800E8256B0EB300EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4800EA256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "sim WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4800EB256B0EB300EF07D0 /* Debug */,
+				EF4800EC256B0EB300EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4800EE256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4800EF256B0EB300EF07D0 /* Debug */,
+				EF4800F0256B0EB300EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4800F1256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "simTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4800F2256B0EB300EF07D0 /* Debug */,
+				EF4800F3256B0EB300EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4800F4256B0EB300EF07D0 /* Build configuration list for PBXNativeTarget "simUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4800F5256B0EB300EF07D0 /* Debug */,
+				EF4800F6256B0EB300EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF4800FC256B0EE800EF07D0 /* XCRemoteSwiftPackageReference "Parma" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dasautoooo/Parma";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF4800FD256B0EE800EF07D0 /* Parma */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF4800FC256B0EE800EF07D0 /* XCRemoteSwiftPackageReference "Parma" */;
+			productName = Parma;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EF48008B256B0EAA00EF07D0 /* Project object */;
+}

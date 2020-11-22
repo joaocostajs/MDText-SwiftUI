@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF480052256AFDAC00EF07D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF480051256AFDAC00EF07D0 /* AppDelegate.swift */; };
+		EF480054256AFDAC00EF07D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF480053256AFDAC00EF07D0 /* SceneDelegate.swift */; };
+		EF480056256AFDAC00EF07D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF480055256AFDAC00EF07D0 /* ContentView.swift */; };
+		EF480058256AFDB000EF07D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF480057256AFDB000EF07D0 /* Assets.xcassets */; };
+		EF48005B256AFDB000EF07D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF48005A256AFDB000EF07D0 /* Preview Assets.xcassets */; };
+		EF48005E256AFDB000EF07D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF48005C256AFDB000EF07D0 /* LaunchScreen.storyboard */; };
+		EF480069256AFDB000EF07D0 /* anteroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF480068256AFDB000EF07D0 /* anteroTests.swift */; };
+		EF480074256AFDB000EF07D0 /* anteroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF480073256AFDB000EF07D0 /* anteroUITests.swift */; };
+		EF480086256AFDC900EF07D0 /* MDText in Frameworks */ = {isa = PBXBuildFile; productRef = EF480085256AFDC900EF07D0 /* MDText */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF480065256AFDB000EF07D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF480046256AFDAC00EF07D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF48004D256AFDAC00EF07D0;
+			remoteInfo = antero;
+		};
+		EF480070256AFDB000EF07D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF480046256AFDAC00EF07D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF48004D256AFDAC00EF07D0;
+			remoteInfo = antero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF48004E256AFDAC00EF07D0 /* antero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = antero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF480051256AFDAC00EF07D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF480053256AFDAC00EF07D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF480055256AFDAC00EF07D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF480057256AFDB000EF07D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF48005A256AFDB000EF07D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF48005D256AFDB000EF07D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF48005F256AFDB000EF07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF480064256AFDB000EF07D0 /* anteroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anteroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF480068256AFDB000EF07D0 /* anteroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anteroTests.swift; sourceTree = "<group>"; };
+		EF48006A256AFDB000EF07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF48006F256AFDB000EF07D0 /* anteroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anteroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF480073256AFDB000EF07D0 /* anteroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anteroUITests.swift; sourceTree = "<group>"; };
+		EF480075256AFDB000EF07D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF48004B256AFDAC00EF07D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF480086256AFDC900EF07D0 /* MDText in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF480061256AFDB000EF07D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF48006C256AFDB000EF07D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF480045256AFDAC00EF07D0 = {
+			isa = PBXGroup;
+			children = (
+				EF480050256AFDAC00EF07D0 /* antero */,
+				EF480067256AFDB000EF07D0 /* anteroTests */,
+				EF480072256AFDB000EF07D0 /* anteroUITests */,
+				EF48004F256AFDAC00EF07D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF48004F256AFDAC00EF07D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF48004E256AFDAC00EF07D0 /* antero.app */,
+				EF480064256AFDB000EF07D0 /* anteroTests.xctest */,
+				EF48006F256AFDB000EF07D0 /* anteroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF480050256AFDAC00EF07D0 /* antero */ = {
+			isa = PBXGroup;
+			children = (
+				EF480051256AFDAC00EF07D0 /* AppDelegate.swift */,
+				EF480053256AFDAC00EF07D0 /* SceneDelegate.swift */,
+				EF480055256AFDAC00EF07D0 /* ContentView.swift */,
+				EF480057256AFDB000EF07D0 /* Assets.xcassets */,
+				EF48005C256AFDB000EF07D0 /* LaunchScreen.storyboard */,
+				EF48005F256AFDB000EF07D0 /* Info.plist */,
+				EF480059256AFDB000EF07D0 /* Preview Content */,
+			);
+			path = antero;
+			sourceTree = "<group>";
+		};
+		EF480059256AFDB000EF07D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF48005A256AFDB000EF07D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF480067256AFDB000EF07D0 /* anteroTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF480068256AFDB000EF07D0 /* anteroTests.swift */,
+				EF48006A256AFDB000EF07D0 /* Info.plist */,
+			);
+			path = anteroTests;
+			sourceTree = "<group>";
+		};
+		EF480072256AFDB000EF07D0 /* anteroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF480073256AFDB000EF07D0 /* anteroUITests.swift */,
+				EF480075256AFDB000EF07D0 /* Info.plist */,
+			);
+			path = anteroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF48004D256AFDAC00EF07D0 /* antero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF480078256AFDB000EF07D0 /* Build configuration list for PBXNativeTarget "antero" */;
+			buildPhases = (
+				EF48004A256AFDAC00EF07D0 /* Sources */,
+				EF48004B256AFDAC00EF07D0 /* Frameworks */,
+				EF48004C256AFDAC00EF07D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = antero;
+			packageProductDependencies = (
+				EF480085256AFDC900EF07D0 /* MDText */,
+			);
+			productName = antero;
+			productReference = EF48004E256AFDAC00EF07D0 /* antero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF480063256AFDB000EF07D0 /* anteroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF48007B256AFDB000EF07D0 /* Build configuration list for PBXNativeTarget "anteroTests" */;
+			buildPhases = (
+				EF480060256AFDB000EF07D0 /* Sources */,
+				EF480061256AFDB000EF07D0 /* Frameworks */,
+				EF480062256AFDB000EF07D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF480066256AFDB000EF07D0 /* PBXTargetDependency */,
+			);
+			name = anteroTests;
+			productName = anteroTests;
+			productReference = EF480064256AFDB000EF07D0 /* anteroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF48006E256AFDB000EF07D0 /* anteroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF48007E256AFDB000EF07D0 /* Build configuration list for PBXNativeTarget "anteroUITests" */;
+			buildPhases = (
+				EF48006B256AFDB000EF07D0 /* Sources */,
+				EF48006C256AFDB000EF07D0 /* Frameworks */,
+				EF48006D256AFDB000EF07D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF480071256AFDB000EF07D0 /* PBXTargetDependency */,
+			);
+			name = anteroUITests;
+			productName = anteroUITests;
+			productReference = EF48006F256AFDB000EF07D0 /* anteroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF480046256AFDAC00EF07D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					EF48004D256AFDAC00EF07D0 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					EF480063256AFDB000EF07D0 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = EF48004D256AFDAC00EF07D0;
+					};
+					EF48006E256AFDB000EF07D0 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = EF48004D256AFDAC00EF07D0;
+					};
+				};
+			};
+			buildConfigurationList = EF480049256AFDAC00EF07D0 /* Build configuration list for PBXProject "antero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF480045256AFDAC00EF07D0;
+			packageReferences = (
+				EF480084256AFDC900EF07D0 /* XCRemoteSwiftPackageReference "MDText" */,
+			);
+			productRefGroup = EF48004F256AFDAC00EF07D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF48004D256AFDAC00EF07D0 /* antero */,
+				EF480063256AFDB000EF07D0 /* anteroTests */,
+				EF48006E256AFDB000EF07D0 /* anteroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF48004C256AFDAC00EF07D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF48005E256AFDB000EF07D0 /* LaunchScreen.storyboard in Resources */,
+				EF48005B256AFDB000EF07D0 /* Preview Assets.xcassets in Resources */,
+				EF480058256AFDB000EF07D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF480062256AFDB000EF07D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF48006D256AFDB000EF07D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF48004A256AFDAC00EF07D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF480052256AFDAC00EF07D0 /* AppDelegate.swift in Sources */,
+				EF480054256AFDAC00EF07D0 /* SceneDelegate.swift in Sources */,
+				EF480056256AFDAC00EF07D0 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF480060256AFDB000EF07D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF480069256AFDB000EF07D0 /* anteroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF48006B256AFDB000EF07D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF480074256AFDB000EF07D0 /* anteroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF480066256AFDB000EF07D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF48004D256AFDAC00EF07D0 /* antero */;
+			targetProxy = EF480065256AFDB000EF07D0 /* PBXContainerItemProxy */;
+		};
+		EF480071256AFDB000EF07D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF48004D256AFDAC00EF07D0 /* antero */;
+			targetProxy = EF480070256AFDB000EF07D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF48005C256AFDB000EF07D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF48005D256AFDB000EF07D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF480076256AFDB000EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF480077256AFDB000EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF480079256AFDB000EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"antero/Preview Content\"";
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = antero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.antero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF48007A256AFDB000EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"antero/Preview Content\"";
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = antero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.antero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF48007C256AFDB000EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				INFOPLIST_FILE = anteroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.anteroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/antero.app/antero";
+			};
+			name = Debug;
+		};
+		EF48007D256AFDB000EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				INFOPLIST_FILE = anteroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.anteroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/antero.app/antero";
+			};
+			name = Release;
+		};
+		EF48007F256AFDB000EF07D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				INFOPLIST_FILE = anteroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.anteroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = antero;
+			};
+			name = Debug;
+		};
+		EF480080256AFDB000EF07D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUT9Y4HT4J;
+				INFOPLIST_FILE = anteroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = joaojscosta.anteroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = antero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF480049256AFDAC00EF07D0 /* Build configuration list for PBXProject "antero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF480076256AFDB000EF07D0 /* Debug */,
+				EF480077256AFDB000EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF480078256AFDB000EF07D0 /* Build configuration list for PBXNativeTarget "antero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF480079256AFDB000EF07D0 /* Debug */,
+				EF48007A256AFDB000EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF48007B256AFDB000EF07D0 /* Build configuration list for PBXNativeTarget "anteroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF48007C256AFDB000EF07D0 /* Debug */,
+				EF48007D256AFDB000EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF48007E256AFDB000EF07D0 /* Build configuration list for PBXNativeTarget "anteroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF48007F256AFDB000EF07D0 /* Debug */,
+				EF480080256AFDB000EF07D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF480084256AFDC900EF07D0 /* XCRemoteSwiftPackageReference "MDText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lambdo-Labs/MDText";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF480085256AFDC900EF07D0 /* MDText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF480084256AFDC900EF07D0 /* XCRemoteSwiftPackageReference "MDText" */;
+			productName = MDText;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EF480046256AFDAC00EF07D0 /* Project object */;
+}
